@@ -16,6 +16,11 @@
 ```
 4. Execute database
 
+5. Rebuild database with seed
+```
+  localhost:3000/api/v2/seed
+```
+
 ```
 docker-compose up -d
 ```
