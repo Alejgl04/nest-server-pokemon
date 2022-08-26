@@ -4,9 +4,9 @@ import { Model } from 'mongoose';
 
 import axios, { AxiosInstance } from 'axios';
 
-import { Pokemon } from 'src/pokemon/entities/pokemon.entity';
+import { Pokemon } from '../pokemon/entities/pokemon.entity';
 import { PokeResponse } from './interfaces/pokemon.interfaces';
-import { AxiosAdapter } from 'src/common/adapters/axios.adapter';
+import { AxiosAdapter } from '../common/adapters/axios.adapter';
 
 @Injectable()
 export class SeedService {
